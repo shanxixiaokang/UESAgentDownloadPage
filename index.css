@@ -1,0 +1,676 @@
+@font-face {
+  font-family: "roboto";
+  src: url("/fonts/roboto-regular-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("/fonts/roboto-medium-webfont.woff") format("woff");
+  font-weight: bold;
+}
+
+body {
+  font-family: roboto, "Alibaba PuHuiTi", "MiSans", "Source Han Sans", "Microsoft Yahei",
+    "\\\\5FAE\\\\8F6F\\\\96C5\\\\9ED1", "PingFang SC", "Songti SC", Arial;
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  display: block;
+
+  text-align: center;
+  padding-top: 350px;
+  font-size: 50px;
+}
+
+#main {
+  visibility: hidden;
+}
+
+.popUpBox {
+  position: fixed;
+  display: none;
+  width: 300px;
+  top: 20px;
+  left: 50%;
+  right: 50%;
+  vertical-align: center;
+  z-index: 2;
+}
+
+#copy_success_icon {
+  width: 16px;
+  height: 16px;
+  float: left;
+}
+
+#systemVersionChoosePrompt {
+  margin-top: 4px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0px;
+  color: #e6492d;
+  cursor: pointer;
+}
+
+#copy_success_content {
+  margin-left: 10px;
+  margin-top: 1px;
+  line-height: 16px;
+  float: left;
+}
+
+.popUpBox::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+body {
+  background: #f4f6f8;
+  padding: 0;
+  margin: 0;
+  min-width: 1500px;
+}
+
+#bodyContent {
+  display: none;
+}
+
+#header {
+  background: #ffffff;
+  padding: 16px 32px;
+}
+
+#header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#ues {
+  width: 24px;
+  height: 24px;
+  float: left;
+}
+
+#title {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #1d2024;
+  margin-left: 10px;
+  float: left;
+}
+
+.system {
+  background-image: url("images/system_title.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 64px;
+  height: 116px;
+  padding-bottom: 60px;
+}
+
+.compatible_system {
+  background: #dfeaff;
+}
+
+.system::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.elliptical {
+  position: absolute;
+  top: 20px;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  opacity: 0.5;
+  background: linear-gradient(315deg, rgba(189, 227, 253, 0) 13%, #9bd8ff 85%);
+  float: left;
+}
+
+.compatible_elliptical {
+  border-radius: 140px;
+  -moz-border-radius: 140px;
+  -webkit-border-radius: 140px;
+
+  background: #9bd8ff;
+}
+
+#company_name {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #1d2024;
+}
+
+#sub_title {
+  margin-top: 12px;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 44px;
+  letter-spacing: 0px;
+  color: #1d2024;
+}
+
+#feature {
+  margin-top: 12px;
+}
+
+#feature::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#featureOneTick {
+  margin-top: 4px;
+  margin-left: 0;
+  width: 16px;
+  height: 16px;
+  float: left;
+}
+
+#feature_one {
+  margin-left: 8px;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #1d2024;
+
+  float: left;
+}
+
+#featureTwoTick {
+  width: 16px;
+  height: 16px;
+  margin-left: 20px;
+  margin-top: 4px;
+
+  float: left;
+}
+
+#feature_two {
+  margin-left: 8px;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #1d2024;
+  float: left;
+}
+
+#download_version {
+  width: 1200px;
+  margin: 20px auto 20px;
+}
+
+#download_version::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.os-container {
+  width: 352px;
+  border-radius: 4px;
+  background: #ffffff;
+  padding: 20px;
+}
+
+#macos_download {
+  margin-bottom: 0;
+}
+
+.os-icon {
+  width: 56px;
+  height: 56px;
+  float: left;
+}
+
+.notFirstOs {
+  margin-left: 12px;
+  float: left;
+}
+
+.icon-version-container {
+  overflow: hidden;
+}
+
+.os_icon {
+  float: left;
+}
+
+.version-container {
+  height: 44px;
+  margin: 6px 0 6px 12px;
+  float: left;
+}
+
+.version {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #1d2024;
+}
+
+.version_value {
+  margin-top: 4px;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0px;
+  color: #4f5460;
+}
+
+.file_md5 {
+  margin-top: 12px;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0px;
+  color: #828695;
+}
+
+.md5_val {
+  margin-top: 8px;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0px;
+  color: #4f5460;
+}
+
+#patch_download_div {
+  margin: 20px auto 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #055ddc;
+}
+
+.download_button {
+  margin: 24px auto 24px;
+  width: 160px;
+  height: 36px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: center;
+  background: #055ddc;
+  color: #ffffff;
+  cursor: pointer;
+
+  position: relative;
+}
+
+#linux_command_line,
+#localization_system_version {
+  float: left;
+  font-size: 16px;
+  color: #1d2024;
+  margin: 16px 0 16px 12px;
+}
+
+#localization_system_download {
+  margin-top: 47px;
+  margin-bottom: 0;
+}
+
+#command {
+  margin: 16px auto 0;
+  border-radius: 4px;
+  padding: 12px;
+  background: #f7f8fa;
+  height: 60px;
+
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #1d2024;
+
+  word-break: break-all;
+  overflow: auto;
+}
+
+#command::-webkit-scrollbar {
+  width: 4px;
+  /* Adjust the scrollbar width as needed */
+}
+
+#command::-webkit-scrollbar-thumb {
+  background-color: #cacdd4;
+}
+
+#linux-icon-version-container {
+  margin-top: 20px;
+}
+
+#copy_command {
+  margin: 44px auto 0;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 40px;
+  letter-spacing: 0px;
+  color: #055ddc;
+  cursor: pointer;
+  text-align: center;
+  background-color: #e8f5ff;
+  height: 40px;
+  border-radius: 4px;
+}
+
+#system_patch_download {
+  margin: 24px auto 0;
+  box-sizing: border-box;
+}
+
+.divider {
+  border-top: 1px solid #e5e6eb;
+}
+
+#system_patch_download_button_content {
+  margin: 16px auto 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #055ddc;
+  cursor: pointer;
+}
+
+#system_patch_download_tip_header {
+  font-size: 12px;
+  color: #828695;
+  margin-top: 12px;
+}
+
+#system_patch_download_tip_content {
+  margin-top: 8px;
+  padding: 12px;
+  background-color: #f7f8fa;
+  height: 156px;
+  overflow: auto;
+}
+
+#localization_system_version_tip {
+  margin: 12px auto 0;
+  padding: 12px;
+  background: #f7f8fa;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0px;
+  color: #4f5460;
+}
+
+.system-item {
+  font-size: 12px;
+  margin-top: 12px;
+  color: #4f5460;
+}
+
+#system_patch_download_tip_content> :first-child {
+  margin-top: 0;
+}
+
+#systemVersionContainer {
+  position: relative;
+}
+
+.systemVersionChoose {
+  height: 20px;
+  margin: 8px auto 0;
+  border-radius: 4px;
+  padding: 6px 12px;
+  border: 1px solid #cacdd4;
+}
+
+#select_system_version {
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 20px;
+  letter-spacing: 0px;
+  float: left;
+  color: #1d2024;
+}
+
+#dropDownPic {
+  width: 12px;
+  height: 12px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  float: right;
+}
+
+.systemVersionOption {
+  position: absolute;
+  display: none;
+  border-radius: 4px;
+  border: 1px solid #cacdd4;
+  width: 100%;
+  background-color: white;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin: 0;
+  text-align: left;
+  padding-left: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+
+.select_li {
+  background-color: #deeff8;
+  color: #055ddc;
+}
+
+li:hover {
+  background-color: #deeff8;
+  color: #055ddc;
+}
+
+.systemVersionChoose::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#system_patch_download_div {
+  background: #ffffff;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 48px;
+}
+
+.system_patch_download_title {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #1d2024;
+}
+
+.patch_download_table {
+  width: 1180px;
+  margin: 40px auto 0;
+  vertical-align: center;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #1d2024;
+  border: 1px solid #e8e8e8;
+  border-collapse: collapse;
+}
+
+th {
+  width: 1180px;
+  height: 40px;
+  background: #f1f2f5;
+  box-shadow: inset 0px -1px 0px 0px #e8e8e8;
+
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #4f5460;
+}
+
+th::after {
+  content: "";
+  display: table-cell;
+  clear: both;
+}
+
+.thead_1 {
+  margin-left: 16px;
+  float: left;
+}
+
+.thead_2 {
+  margin-left: 536px;
+  float: left;
+}
+
+.first_col {
+  width: 590px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: inset -1px 0px 0px 0px #e8e8e8, inset 0px -1px 0px 0px #e8e8e8;
+  padding-left: 16px;
+  text-align: left;
+}
+
+.special_col {
+  height: 118px;
+}
+
+.second_col {
+  width: 554px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: inset 0px -1px 0px 0px #e8e8e8;
+  padding-left: 16px;
+  padding-right: 20px;
+}
+
+.second_col::after {
+  content: "";
+  display: table-cell;
+  clear: both;
+}
+
+.second_col_first_div {
+  float: left;
+}
+
+.second_col_second_div {
+  float: right;
+  color: #055ddc;
+  cursor: pointer;
+}
+
+.specialSecondColDiv {
+  text-align: left;
+}
+
+.specialSecondColDiv::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#footer {
+  background: #00164d;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #e8f5ff;
+}
+
+/**********************转圈儿样式 BEGIN****************************************************/
+/* 定义关键帧动画*/
+@keyframes antRotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 设置加载动画的整体样式 */
+.ant-spin-dot {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  width: 1em;
+  height: 1em;
+  animation: antRotate 4s infinite linear;
+}
+
+/* 设置加载动画的每个小点样式 */
+.ant-spin-dot-item {
+  position: absolute;
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #1890ff;
+  /*小点的背景颜色*/
+  border-radius: 50%;
+  /* 小点呈圆形 */
+  transform: translate(-50%, -50%);
+}
+
+/* 定义加载动画中的四个点的样式和位置 */
+.ant-spin-dot-item:nth-child(1) {
+  top: 0;
+  left: 50%;
+}
+
+.ant-spin-dot-item:nth-child(2) {
+  top: 50%;
+  left: 100%;
+}
+
+.ant-spin-dot-item:nth-child(3) {
+  top: 100%;
+  left: 50%;
+}
+
+.ant-spin-dot-item:nth-child(4) {
+  top: 50%;
+  left: 0;
+}
+
+/**********************转圈儿样式 END****************************************************/

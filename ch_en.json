@@ -1,0 +1,111 @@
+{
+  "feature_one": {
+    "zh_CN": "更好保障企业内网安全",
+    "en_US": "Better Protecting Corporate Network Security"
+  },
+  "feature_two": {
+    "zh_CN": "无需设置安装即用",
+    "en_US": "Ready to Use Without Setup"
+  },
+  "win_version": {
+    "zh_CN": "Windows 版",
+    "en_US": "Windows Version"
+  },
+  "linux_version": {
+    "zh_CN": "Linux 版",
+    "en_US": "Linux Version"
+  },
+  "file_md5": {
+    "zh_CN": "文件 MD5",
+    "en_US": "File MD5"
+  },
+  "system_patch_download_button_content": {
+    "zh_CN": "系统补丁下载",
+    "en_US": "System Patch Download"
+  },
+  "download_now": {
+    "zh_CN": "立即下载",
+    "en_US": "Download"
+  },
+  "linux_command_line": {
+    "zh_CN": "Linux 命令行",
+    "en_US": "Linux Command Line"
+  },
+  "copy_command": {
+    "zh_CN": "复制命令行",
+    "en_US": "Copy Command Line"
+  },
+  "tech_support": {
+    "zh_CN": "技术支持",
+    "en_US": "Technical Support"
+  },
+  "common_colon": {
+    "zh_CN": "：",
+    "en_US": ":"
+  },
+  "common_comma": {
+    "zh_CN": "。",
+    "en_US": "."
+  },
+  "system_version": {
+    "zh_CN": "系统版本",
+    "en_US": "System version"
+  },
+  "patch_number": {
+    "zh_CN": "补丁编号",
+    "en_US": "Patch number"
+  },
+  "message_one": {
+    "zh_CN": "请按如下顺序安装补丁后再进行探针安装：",
+    "en_US": "Please install the patches in this order before the agent installation: "
+  },
+  "message_two": {
+    "zh_CN": "（静默运行，等待3分钟）",
+    "en_US": "(Run silently and wait for 3 minutes)"
+  },
+  "down_load": {
+    "zh_CN": "下载",
+    "en_US": "Download"
+  },
+  "copy_success": {
+    "zh_CN": "复制成功",
+    "en_US": "Copy successful"
+  },
+  "macos_version": { "zh_CN": "macOS 版", "en_US": "macOS Version" },
+  "localization_system_version": {
+    "zh_CN": "国产化系统版本",
+    "en_US": "Domestic System Version"
+  },
+  "localization_system_version_tip": {
+    "zh_CN": "支持 银河麒麟 V10，统信 V20 桌面版安装包",
+    "en_US": "Support Kylin V10 and UOS V20"
+  },
+  "system_patch_download_tip_header": {
+    "zh_CN": "以下系统可能需要安装补丁才能安装智铠：",
+    "en_US": "The following systems may require patches to install Hillstone UES: "
+  },
+  "select_system_version": {
+    "zh_CN": "请先选择操作系统",
+    "en_US": "Please select the OS first"
+  },
+  "kylin_x86-64": {
+    "zh_CN": "银河麒麟 V10 桌面版AMD64",
+    "en_US": "Kylin V10 Desktop AMD64"
+  },
+  "kylin_arm64": {
+    "zh_CN": "银河麒麟 V10 桌面版ARM64",
+    "en_US": "Kylin V10 Desktop ARM64"
+  },
+  "uos_x86-64": {
+    "zh_CN": "统信UOS V20 桌面版AMD64",
+    "en_US": "UOS V20 Desktop AMD64"
+  },
+  "uos_arm64": {
+    "zh_CN": "统信UOS V20 桌面版ARM64",
+    "en_US": "UOS V20 Desktop ARM64"
+  },
+  "error": {
+    "zh_CN": "网络或服务器发生错误",
+    "en_US": "A network or server error occurred"
+  }
+}
